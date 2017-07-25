@@ -6,5 +6,9 @@ if  (Diego>= 16) {
 else{
   false
 }
-var order
-function discount(order)
+
+function discount(total, discount){
+  var discountPercentage = discount / 100;
+  console.log("discountPercentage: ", discountPercentage)
+  return total - total (discountPercentage)
+}
