@@ -6,3 +6,5 @@ if  (Diego>= 16) {
 else{
   false
 }
+var order
+function discount(order)
